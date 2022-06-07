@@ -13,6 +13,8 @@ import { apiRoutes } from "./api-routes.js";
 import { db } from "./models/db.js";
 import { validate } from "./api/jwt-utils.js";
 
+//test github
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
