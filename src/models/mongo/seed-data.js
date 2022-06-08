@@ -23,13 +23,13 @@ export const seedData = {
   candidates: {
     _model: "Candidate",
     lisa: {
-      firstName: "Lisa",
-      lastName: "Simpson",
+      firstName: "_Alain_Bui",
+      lastName: "Versailles",
       office: "President",
     },
     donald: {
-      firstName: "Donald",
-      lastName: "Simpson",
+      firstName: "_Patrick_Curmi",
+      lastName: "Évry",
       office: "President",
     },
   },
