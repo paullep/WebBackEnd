@@ -36,7 +36,7 @@ export const seedData = {
   donations: {
     _model: "Donation",
     one: {
-      amount: 19.000,
+      amount: 19000,
       method: "Faculty",
       lat: "48.80132767679569",
       lng: "2.128292348852699",
@@ -44,7 +44,7 @@ export const seedData = {
       candidate: "->candidates.lisa",
     },
     two: {
-      amount: 10.833,
+      amount: 10833,
       method: "direct",
       lat: "52.149220",
       lng: "-6.994620",
