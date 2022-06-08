@@ -28,7 +28,7 @@ export const seedData = {
       office: "President",
     },
     donald: {
-      firstName: "(President: Patrick Curmi)",
+      firstName: " (President: Patrick Curmi)",
       lastName: "Évry",
       office: "President",
     },
@@ -36,7 +36,7 @@ export const seedData = {
   donations: {
     _model: "Donation",
     one: {
-      amount: 19,000,
+      amount: 19.000,
       method: "Faculty",
       lat: "48.80132767679569",
       lng: "2.128292348852699",
@@ -44,12 +44,12 @@ export const seedData = {
       candidate: "->candidates.lisa",
     },
     two: {
-      amount: 10,833,
+      amount: 10.833,
       method: "direct",
       lat: "52.149220",
       lng: "-6.994620",
       donor: "->users.marge",
-      candidate: "->candidates.lisa",
+      candidate: "->candidates.homer",
     },
   },
 };
