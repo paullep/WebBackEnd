@@ -49,7 +49,7 @@ export const seedData = {
       lat: "52.149220",
       lng: "-6.994620",
       donor: "->users.marge",
-      candidate: "->candidates.homer",
+      candidate: "->candidates.donald",
     },
     three: {
       amount: 10833,
@@ -57,7 +57,7 @@ export const seedData = {
       lat: "52.149220",
       lng: "-6.994620",
       donor: "->users.marge",
-      candidate: "->candidates.homer",
+      candidate: "->candidates.donald",
     },
   },
 };
