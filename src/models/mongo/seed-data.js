@@ -51,5 +51,13 @@ export const seedData = {
       donor: "->users.marge",
       candidate: "->candidates.homer",
     },
+    three: {
+      amount: 10833,
+      method: "direct",
+      lat: "52.149220",
+      lng: "-6.994620",
+      donor: "->users.marge",
+      candidate: "->candidates.homer",
+    },
   },
 };
