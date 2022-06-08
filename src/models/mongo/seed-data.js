@@ -29,7 +29,7 @@ export const seedData = {
     },
     donald: {
       firstName: " (President: Patrick Curmi)",
-      lastName: "Évry",
+      lastName: "Evry",
       office: "President",
     },
   },
