@@ -23,13 +23,13 @@ export const seedData = {
   candidates: {
     _model: "Candidate",
     lisa: {
-      firstName: "Alain Bui",
-      lastName: "Faculties of Versailles Saint-Quentin-en-Yvelines",
+      firstName: "_Alain_Bui",
+      lastName: "Versailles",
       office: "President",
     },
     donald: {
-      firstName: "Patrick Curmi",
-      lastName: "Faculties of Évry Val d'Essonne",
+      firstName: "_Patrick_Curmi",
+      lastName: "Évry",
       office: "President",
     },
   },
