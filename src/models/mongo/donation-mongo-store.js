@@ -11,7 +11,7 @@ export const donationMongoStore = {
     return donations;
   },
 
-  async donate(amount, method, donor, candidate, lat, lng) {
+  async donate(amount, method, donor, candidate, lat, lng, image) {
     const newDonation = new Donation({
       amount,
       method,
@@ -19,6 +19,7 @@ export const donationMongoStore = {
       candidate: candidate._id,
       lat,
       lng,
+      image
     });
     await newDonation.save();
     return newDonation;
