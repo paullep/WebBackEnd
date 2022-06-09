@@ -40,11 +40,11 @@ export const seedData = {
   },
   donations: {
     _model: "Donation",
-    one: {
-      amount: 1,337 ,
+    one: { 
+      amount: 1337,
       method: "Engineering School",
-      lat: "48.80132767679569",
-      lng: "2.128292348852699",
+      lat: "48.71252272306139",
+      lng: "2.164909520195788",
       donor: "->users.marge",
       candidate: "->candidates.ens",
     },
