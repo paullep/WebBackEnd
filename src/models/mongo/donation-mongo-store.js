@@ -19,7 +19,7 @@ export const donationMongoStore = {
       candidate: candidate._id,
       lat,
       lng,
-      image
+      image,
     });
     await newDonation.save();
     return newDonation;
