@@ -33,8 +33,8 @@ export const seedData = {
       office: "President",
     },
     ens: {
-      firstName: "ENS",
-      lastName: "Esonne",
+      firstName: "Esonne",
+      lastName: "ENS",
       office: "President",
     },
   },
