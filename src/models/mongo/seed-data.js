@@ -58,7 +58,7 @@ export const seedData = {
     },
     three: { 
       amount: 10833,
-      method: "direct",
+      method: "Faculty",
       lat: "48.62450167107664",
       lng: "2.4293909216875025",
       donor: "->users.marge",
