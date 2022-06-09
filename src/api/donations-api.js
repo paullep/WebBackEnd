@@ -37,6 +37,7 @@ export const donationsApi = {
           candidate,
           request.payload.lat,
           request.payload.lng,
+          request.payload.image,
       );
       return donation;
     },
