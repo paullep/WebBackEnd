@@ -32,10 +32,23 @@ export const seedData = {
       lastName: "Evry",
       office: "President",
     },
+    ens: {
+      firstName: "ENS",
+      lastName: "Esonne",
+      office: "President",
+    },
   },
   donations: {
     _model: "Donation",
     one: {
+      amount: 1,337 ,
+      method: "Engineering School",
+      lat: "48.80132767679569",
+      lng: "2.128292348852699",
+      donor: "->users.marge",
+      candidate: "->candidates.ens",
+    },
+    two: {
       amount: 19000,
       method: "Faculty",
       lat: "48.80132767679569",
@@ -43,7 +56,7 @@ export const seedData = {
       donor: "->users.marge",
       candidate: "->candidates.lisa",
     },
-    two: { 
+    three: { 
       amount: 10833,
       method: "direct",
       lat: "48.62450167107664",
