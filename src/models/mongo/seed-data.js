@@ -43,19 +43,11 @@ export const seedData = {
       donor: "->users.marge",
       candidate: "->candidates.lisa",
     },
-    two: {
+    two: { 
       amount: 10833,
       method: "direct",
-      lat: "52.149220",
-      lng: "-6.994620",
-      donor: "->users.marge",
-      candidate: "->candidates.donald",
-    },
-    three: {
-      amount: 10833,
-      method: "direct",
-      lat: "52.149220",
-      lng: "-6.994620",
+      lat: "48.62450167107664",
+      lng: "2.4293909216875025",
       donor: "->users.marge",
       candidate: "->candidates.donald",
     },
