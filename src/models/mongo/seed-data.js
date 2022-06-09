@@ -32,7 +32,47 @@ export const seedData = {
       lastName: "Evry",
       office: "President",
     },
-    cs: {
+    ens: {
+      firstName: "Esonne",
+      lastName: "ENS",
+      office: "President",
+    },
+    optique: {
+      firstName: "Esonne",
+      lastName: "Optique",
+      office: "President",
+    },
+    agro: {
+      firstName: "Esonne",
+      lastName: "Agro",
+      office: "President",
+    },
+    iutcachan: {
+      firstName: "Esonne",
+      lastName: "IUTCachan",
+      office: "President",
+    },
+    iutsceaux: {
+      firstName: "Esonne",
+      lastName: "IUTSceaux",
+      office: "President",
+    },
+    iutsaclay: {
+      firstName: "Esonne",
+      lastName: "IUTSaclay",
+      office: "President",
+    },
+    polytech: {
+      firstName: "Esonne",
+      lastName: "Polytech",
+      office: "President",
+    },
+    main: {
+      firstName: "Esonne",
+      lastName: "Saclay",
+      office: "President",
+    },
+    centrale: {
       firstName: "Esonne",
       lastName: "Centrale",
       office: "President",
