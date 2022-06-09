@@ -32,21 +32,21 @@ export const seedData = {
       lastName: "Evry",
       office: "President",
     },
-    ens: {
+    cs: {
       firstName: "Esonne",
-      lastName: "ENS",
+      lastName: "Centrale",
       office: "President",
     },
   },
   donations: {
     _model: "Donation",
-    one: { 
-      amount: 1337,
+    one: { , 
+      amount: 5350,
       method: "Engineering School",
-      lat: "48.71252272306139",
-      lng: "2.164909520195788",
+      lat: "48.7096467292806",
+      lng: "2.1662380107209582",
       donor: "->users.marge",
-      candidate: "->candidates.ens",
+      candidate: "->candidates.cs",
     },
     two: {
       amount: 19000,
