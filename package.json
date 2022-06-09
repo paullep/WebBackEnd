@@ -10,7 +10,7 @@
     "test": "mocha --ui tdd test/**/*.js",
     "dev": "npx nodemon  src/server.js"
   },
-  "author": "",
+  "author": "", 
   "license": "ISC",
   "dependencies": {
     "@hapi/boom": "^9.1.4",
