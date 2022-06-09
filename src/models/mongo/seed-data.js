@@ -72,7 +72,7 @@ export const seedData = {
       lastName: "Saclay",
       office: "President",
     },
-    centrale: {
+    cs: {
       firstName: "Esonne",
       lastName: "Centrale",
       office: "President",
