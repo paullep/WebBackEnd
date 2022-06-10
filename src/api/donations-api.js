@@ -1,7 +1,7 @@
 import Boom from "@hapi/boom";
 import {db} from "../models/db.js";
 
-export const donationsApi = { 
+export const donationsApi = {
   findAll: {
     auth: {
       strategy: "jwt",
