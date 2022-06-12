@@ -95,7 +95,7 @@ export const seedData = {
       lat: "48.80132767679569",
       lng: "2.128292348852699",
       image: "https://i.ytimg.com/vi/_cv_0pSC0_8/maxresdefault.jpg https://eurasiaproject.eu/wp-content/uploads/2018/10/stquentin-1458328270.jpg https://upload.wikimedia.org/wikipedia/fr/3/31/Logo-UVSQ-2020-RVB.jpg https://www.david.uvsq.fr/wp-content/uploads/sites/142/2018/06/laboratoire-1.png",
-      donor: "->users.marge",
+      donor: "->users.homer",
       candidate: "->candidates.lisa",
     },
     three: { 
