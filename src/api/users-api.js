@@ -48,6 +48,20 @@ export const userApi = {
       }
     },
   },
+  
+    deleteOne: {
+    auth: {
+      strategy: "jwt",
+    },
+    handler: async function (request, h) {
+      try {
+        const a = await db.userStore.deleteUserById(request.params.id);
+        return a;
+      } catch (err) {
+        return Boom.serverUnavailable("No User with this id");
+      }
+    },
+  },
 
   deleteAll: {
     auth: {
