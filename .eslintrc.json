@@ -9,7 +9,7 @@
     "sourceType": "module"
   },
   "rules": {
-    "quotes": ["error", "double"],
+    "quotes": ["error", "double"], 
     "eslint-disable-next-line" : "off",
     "func-names": "off",
     "no-console": "off",
