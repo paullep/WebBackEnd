@@ -107,5 +107,14 @@ export const seedData = {
       donor: "->users.bart",
       candidate: "->candidates.donald",
     },
+    four: { 
+      amount: 2000,
+      method: "Engineering School",
+      lat: "48.71503457044315",
+      lng: "2.1945315943790846",
+      image: "https://media.lesechos.com/api/v1/images/view/626bd6d3e363804aa976c316/1280x720/0701431940060-web-tete.jpg https://www.apecita.com/uploads/news/5ddbe251bfd55126905417.PNG",
+      donor: "->users.homer",
+      candidate: "->candidates.agro",
+    },
   },
 };
