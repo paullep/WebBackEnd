@@ -15,6 +15,7 @@ export const apiRoutes = [
   { method: "POST", path: "/api/candidates/{id}/donations", config: donationsApi.makeDonation },
   { method: "DELETE", path: "/api/donations", config: donationsApi.deleteAll },
   { method: "DELETE", path: "/api/donations/{id}", config: donationsApi.deleteDonationsOfUser },
+  { method: "GET", path: "/api/donations/number/{id}", config: donationsApi.countDonationsOfUser },
 
   { method: "GET", path: "/api/candidates", config: candidatesApi.find },
   { method: "GET", path: "/api/candidates/{id}", config: candidatesApi.findOne },
