@@ -28,4 +28,8 @@ export const donationMongoStore = {
   async deleteAll() {
     await Donation.deleteMany({});
   },
+  
+   async deleteDonationsOfUser(id) {
+    await Donation.deleteMany({donor : id});
+  },
 };
