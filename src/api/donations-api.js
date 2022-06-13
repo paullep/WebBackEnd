@@ -52,4 +52,14 @@ export const donationsApi = {
       return {success: true};
     },
   },
+  
+  deleteDonationsOfUser: {
+    auth: {
+      strategy: "jwt",
+    },
+    handler: async function (request, h) {
+      await db.donationStore.deleteDonationsOfUser(request.params.id);
+      return {success: true};
+    },
+  },
 };
