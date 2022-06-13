@@ -32,4 +32,8 @@ export const donationMongoStore = {
    async deleteDonationsOfUser(id) {
     await Donation.deleteMany({donor : id});
   },
+  
+  async countDonationsOfUser(id) {
+    await Donation.count({donor : id});
+  },
 };
