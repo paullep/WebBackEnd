@@ -34,6 +34,7 @@ export const donationMongoStore = {
   },
   
   async countDonationsOfUser(id) {
-    await Donation.count({donor : id});
+    const nbr  = await Donation.count({donor : id});
+    return nbr;
   },
 };
