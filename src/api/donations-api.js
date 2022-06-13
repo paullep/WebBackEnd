@@ -68,8 +68,8 @@ export const donationsApi = {
       strategy: "jwt",
     },
     handler: async function (request, h) {
-      await db.donationStore.countDonationsOfUser(request.params.id);
-      return {success: true};
+      const nbr = await db.donationStore.countDonationsOfUser(request.params.id);
+      return nbr;
     },
   },
 };
