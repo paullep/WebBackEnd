@@ -24,7 +24,7 @@ if (result.error) {
 
 const swaggerOptions = {
   info: {
-    title: "Playtime API",
+    title: "University Of Paris-Saclay API",
     version: "0.1",
   },
 };
