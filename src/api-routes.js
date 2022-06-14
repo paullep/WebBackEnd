@@ -21,5 +21,5 @@ export const apiRoutes = [
   { method: "GET", path: "/api/candidates/{id}", config: candidatesApi.findOne },
   { method: "POST", path: "/api/candidates", config: candidatesApi.create },
   { method: "DELETE", path: "/api/candidates/{id}", config: candidatesApi.deleteOne },
-  { method: "DELETE", path: "/api/candidates", config: candidatesApi.deleteAll },
+  { method: "DELETE", path: "/api/candidates", config: candidatesApi.deleteAll }, 
 ];
