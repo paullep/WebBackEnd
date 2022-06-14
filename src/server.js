@@ -6,6 +6,7 @@ import Handlebars from "handlebars";
 import jwt from "hapi-auth-jwt2";
 import dotenv from "dotenv";
 import path from "path";
+import HapiSwagger from "hapi-swagger";
 import { fileURLToPath } from "url";
 import { accountsController } from "./controllers/accounts-controller.js";
 import { webRoutes } from "./web-routes.js";
@@ -20,6 +21,13 @@ const result = dotenv.config();
 if (result.error) {
   console.log(result.error.message);
 }
+
+const swaggerOptions = {
+  info: {
+    title: "Playtime API",
+    version: "0.1",
+  },
+};
 
 async function init() {
   const server = Hapi.server({
@@ -67,8 +75,16 @@ async function init() {
   server.route(webRoutes);
   server.route(apiRoutes);
 
+  await server.register([
+    Inert,
+    Vision,
+    {
+      plugin: HapiSwagger,
+      options: swaggerOptions,
+    },
+  ]);
+  
   await server.start();
-  console.log(`Server running at: ${server.info.uri}`);
 }
 
 process.on("unhandledRejection", (err) => {
