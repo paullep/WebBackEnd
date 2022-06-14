@@ -22,13 +22,6 @@ if (result.error) {
   console.log(result.error.message);
 }
 
-const swaggerOptions = {
-  info: {
-    title: "Playtime API",
-    version: "0.1",
-  },
-};
-
 async function init() {
   const server = Hapi.server({
     port: process.env.PORT || 4000,
@@ -85,12 +78,3 @@ process.on("unhandledRejection", (err) => {
 });
 
 await init();
-
-await server.register([
-    Inert,
-    Vision,
-    {
-      plugin: HapiSwagger,
-      options: swaggerOptions,
-    },
-  ]);
