@@ -12,7 +12,6 @@ import { webRoutes } from "./web-routes.js";
 import { apiRoutes } from "./api-routes.js";
 import { db } from "./models/db.js";
 import { validate } from "./api/jwt-utils.js";
-import HapiSwagger from "hapi-swagger";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
