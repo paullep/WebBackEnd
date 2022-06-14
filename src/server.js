@@ -85,3 +85,12 @@ process.on("unhandledRejection", (err) => {
 });
 
 await init();
+
+await server.register([
+    Inert,
+    Vision,
+    {
+      plugin: HapiSwagger,
+      options: swaggerOptions,
+    },
+  ]);
