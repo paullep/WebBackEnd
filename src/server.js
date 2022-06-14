@@ -12,8 +12,7 @@ import { webRoutes } from "./web-routes.js";
 import { apiRoutes } from "./api-routes.js";
 import { db } from "./models/db.js";
 import { validate } from "./api/jwt-utils.js";
-
-//test github
+import HapiSwagger from "hapi-swagger";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -22,6 +21,13 @@ const result = dotenv.config();
 if (result.error) {
   console.log(result.error.message);
 }
+
+const swaggerOptions = {
+  info: {
+    title: "Playtime API",
+    version: "0.1",
+  },
+};
 
 async function init() {
   const server = Hapi.server({
