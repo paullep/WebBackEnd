@@ -1,6 +1,7 @@
 import Boom from "@hapi/boom";
 import { db } from "../models/db.js";
 import { createToken } from "./jwt-utils.js";
+import { validationError } from "./logger.js";
 
 export const userApi = {
   find: {
