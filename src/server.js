@@ -27,6 +27,14 @@ const swaggerOptions = {
     title: "University Of Paris-Saclay API",
     version: "0.1",
   },
+  securityDefinitions: {
+    jwt: {
+      type: "apiKey",
+      name: "Authorization",
+      in: "header"
+    }
+  },
+  security: [{ jwt: [] }]
 };
 
 async function init() {
