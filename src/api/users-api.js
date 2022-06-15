@@ -41,7 +41,6 @@ export const userApi = {
     tags: ["api"],
     description: "Get a specific user",
     notes: "Returns user details",
-    validate: { payload : IdSpec, failAction: validationError },
     response: { schema: UserSpecPlus, failAction: validationError },
   },
 
