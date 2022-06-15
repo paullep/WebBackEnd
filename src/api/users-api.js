@@ -41,7 +41,6 @@ export const userApi = {
     tags: ["api"],
     description: "Get a specific user",
     notes: "Returns user details",
-    response: { schema: UserSpecPlus, failAction: validationError },
   },
 
   create: {
