@@ -61,7 +61,7 @@ export const userApi = {
     description: "Create a User",
     notes: "Returns the newly created user",
     validate: { payload: UserSpec, failAction: validationError },
-    response: { schema: UserSpec, failAction: validationError },
+    response: { schema: UserSpecPlus, failAction: validationError },
   },
   
     deleteOne: {
