@@ -88,6 +88,9 @@ export const userApi = {
         return Boom.serverUnavailable("Database Error");
       }
     },
+    tags: ["api"],
+    description: "Delete all userApi",
+    notes: "All userApi removed from Playtime",
   },
 
   authenticate: {
