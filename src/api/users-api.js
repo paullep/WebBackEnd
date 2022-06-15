@@ -52,6 +52,9 @@ export const userApi = {
         return Boom.serverUnavailable("Database Error");
       }
     },
+        tags: ["api"],
+    description: "Create a User",
+    notes: "Returns the newly created user",
   },
   
     deleteOne: {
