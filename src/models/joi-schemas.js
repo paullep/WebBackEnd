@@ -1,6 +1,6 @@
 import Joi from "joi";
 
-export const IdSpec = Joi.string().description("a valid ID");
+export const IdSpec = Joi.string();
 
 export const UserCredentialsSpec = Joi.object()
   .keys({
