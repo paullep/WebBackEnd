@@ -20,7 +20,6 @@ export const userApi = {
     tags: ["api"],
     description: "Get all userApi",
     notes: "Returns details of all userApi",
-    response: { schema: UserArray, failAction: validationError },
   },
 
   findOne: {
