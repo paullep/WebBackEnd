@@ -42,7 +42,7 @@ export const userApi = {
     description: "Get a specific user",
     notes: "Returns user details",
     validate: { params: { id: IdSpec }, failAction: validationError },
-    response: { schema: UserSpecPlus, failAction: validationError },
+    response: { schema: UserSpec, failAction: validationError },
   },
 
   create: {
@@ -62,7 +62,7 @@ export const userApi = {
     description: "Create a User",
     notes: "Returns the newly created user",
     validate: { payload: UserSpec, failAction: validationError },
-    response: { schema: UserSpecPlus, failAction: validationError },
+    response: { schema: UserSpec, failAction: validationError },
   },
   
     deleteOne: {
